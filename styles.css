@@ -1,5 +1,5 @@
 html {
-    font-family: "Lucida Console", sans-serif;
+    font-family: Tahoma, sans-serif;
 
 }
 body {
@@ -41,7 +41,7 @@ ul li a:hover {
 
 /* hero bar */
 .hero-bar {
-    height:250px;
+    height:300px;
     background-color: #1F2937;
     display:flex;
     justify-content: space-evenly;
@@ -85,7 +85,7 @@ max-width: 380px;
     font-size: 16px;
     color: #E5E7EB;
 }
-div button {
+.hero-bar div button {
     margin: 0;
     background-color: #3882F6;
     border: none;
@@ -101,6 +101,9 @@ div button:hover {
     cursor: pointer;
     background-color: #2277ff;
 }
+
+
+
 
 /* info block */
 
@@ -123,19 +126,20 @@ div button:hover {
 display: flex;
 justify-content: center;
 gap: 90px;
+margin-bottom: 80px;
 }
 
 .card-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 140px;
+    max-width: 180px;
     text-align: center;
     
 }
 .card {
-    width: 140px;
-    height: 140px;
+    width: 180px;
+    height: 180px;
     border: 2px solid #2a394e;
     border-radius: 15px;
 }
@@ -143,6 +147,95 @@ gap: 90px;
 /* quote */
 
 .quote-block {
-    background-color: grey;
-    height: 1000px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+max-width: 437px;
+padding-top: 30px;
+font-size: 30px;
+font-style: italic;
+margin-bottom: 0;
+
+
+}
+
+.name {
+width: 437px;
+text-align: right;
+margin: 0 0 20px 0;
+font-size: 16px;
+}
+
+
+/* action */
+
+.action-block {
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.blue-block {
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+height: 130px;
+flex: 1 1 auto;
+border-radius: 8px;
+background-color: #3882F6;
+margin: 0 250px;
+min-width: 400px;
+}
+
+.blue-block-text {
+color: #F9FAF8;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 8px;
+}
+
+.blue-header {
+font-size: 24px;
+font-weight: bold;
+margin: 0;
+}
+
+.blue-text {
+margin: 0;
+font-size: 14px;
+}
+
+.blue-block button {
+flex: none;
+width: 120px;
+height: 30px;
+background-color: rgba(0, 0, 0, 0);
+color:#F9FAF8;
+border:2px solid #F9FAF8;
+border-radius: 8px;
+}
+
+
+/* footer */
+
+footer {
+    height: 60px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div {
+    text-align: center;
+    color:#F9FAF8;
+    font-size: 12px;
 }
